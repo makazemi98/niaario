@@ -1,0 +1,9 @@
+@import "@assets/scss/variables/radius";
+
+@mixin border-radius() {
+    @each $name, $value in $radiuses {
+        .br-#{$name} {
+            border-radius: #{$value} !important;
+        }
+    }
+}

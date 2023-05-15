@@ -1,0 +1,9 @@
+@import "@assets/scss/variables/weight";
+
+@mixin font-weight() {
+    @each $name, $value in $weights {
+        .fw-#{$name} {
+            font-weight: #{$value} !important;
+        }
+    }
+}

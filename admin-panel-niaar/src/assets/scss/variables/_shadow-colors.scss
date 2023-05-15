@@ -1,0 +1,20 @@
+@import "./color";
+
+// shadow colors variables
+$shadow-colors: (
+    dark:
+        rgba(
+            $color: black,
+            $alpha: 0.15,
+        ),
+    accent:
+        rgba(
+            $color: $accent,
+            $alpha: 0.25,
+        ),
+    secondary:
+        rgba(
+            $color: $secondary,
+            $alpha: 0.25,
+        ),
+);

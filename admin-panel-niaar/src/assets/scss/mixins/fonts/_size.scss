@@ -1,0 +1,9 @@
+@import "./../../variables/size";
+
+@mixin font-size() {
+    @each $name, $value in $sizes {
+        .fs-#{$name} {
+            font-size: #{$value} !important;
+        }
+    }
+}

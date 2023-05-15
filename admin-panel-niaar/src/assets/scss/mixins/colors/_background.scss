@@ -1,0 +1,9 @@
+@import '@assets/scss/variables/color';
+
+@mixin bg-color() {
+  @each $name, $value in $colors {
+    .bg-#{$name} {
+      background-color: #{$value} !important;
+    }
+  }
+}

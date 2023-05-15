@@ -1,0 +1,16 @@
+@import './../../variables/shadow-sizes';
+@import './../../variables/shadow-colors';
+
+@mixin shadow-generator() {
+    @each $color-name, $color-value in $shadow-colors {
+        @each $size-name, $size-value in $shadow-sizes {
+            @include box-shadow($color-name, $color-value, $size-name, $size-value);
+        }
+    }
+}
+
+@mixin box-shadow($color-name, $color-value, $size-name, $size-value) {
+    .box-#{$color-name}-#{$size-name}-shadow {
+        box-shadow: $size-value $color-value;
+    }
+}

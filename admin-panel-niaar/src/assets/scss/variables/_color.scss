@@ -1,0 +1,36 @@
+// colors variables
+$colors: (
+    dark: #444444,
+    gray: #eaeaea,
+    accent: #182485,
+    powder: #fcfcfc,
+    silver: #c4c4c4,
+    gray-light: #ededed,
+    cultured: #f0f0f0,
+    secondary: #888888,
+    accent-light: #707ac9,
+    accent-overlay: #f5f6f8,
+    secondary-light: #666666,
+    shadow-white:
+        rgba(
+            $color: #ffffff,
+            $alpha: 0.7,
+        ),
+    shadow-accent: rgba($color: #707AC9, $alpha: 0.15),
+);
+
+$dark: #444444;
+$gray: #eaeaea;
+$accent: #182485;
+$powder: #fcfcfc;
+$silver: #c4c4c4;
+$cultured: #f0f0f0;
+$secondary: #888888;
+$accent-light: #707ac9;
+$accent-overlay: #f5f6f8;
+$secondary-light: #666666;
+$shadow-white: rgba(
+    $color: #ffffff,
+    $alpha: 0.7,
+);
+$shadow-accent: rgba($color: #707AC9, $alpha: 0.15);

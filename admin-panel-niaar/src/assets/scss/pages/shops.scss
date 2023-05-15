@@ -1,0 +1,32 @@
+.collapsible-form {
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}
+.country-flag {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+    object-position: center;
+}
+.flags-select {
+    & .vs__dropdown-toggle {
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+    & .vs__dropdown-toggle {
+        height: 38px;
+        width: 120px;
+    }
+}
+.logo-uploaded-file {
+    width: 42px;
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    & img {
+        width: 42px;
+        height: 38px;
+        object-fit: cover;
+        border-radius: 4px;
+        object-position: center;
+    }
+}

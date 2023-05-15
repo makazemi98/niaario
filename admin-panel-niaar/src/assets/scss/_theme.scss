@@ -1,0 +1,23 @@
+@import "./mixins/fonts/size";
+// @import "./mixins/colors/text";
+// @import "./mixins/fonts/weight";
+// @import "./mixins/border/radius";
+// @import "./mixins/shadows/shadow";
+// @import "./mixins/colors/background";
+
+// @include bg-color();
+@include font-size();
+// @include text-color();
+// @include font-weight();
+// @include border-radius();
+// @include shadow-generator();
+
+.custom-switch .custom-control-label::before {
+    height: 1.6rem !important;
+}
+.btn.dropdown-toggle {
+    display: flex;
+}
+.list-group-item {
+    display: table-row !important;
+}
